@@ -2,11 +2,20 @@ document.addEventListener("DOMContentLoaded", function() {
   fetchBooks();
 });
 
+
 const bookUl = document.querySelector("#list");
 const showPanel = document.querySelector("#show-panel");
 
 const bookUrl = "http://localhost:3000/books";
 const userUrl = "http://localhost:3000/users";
+
+
+const currentUser = {
+  "id": 1,
+  "username": "pouros"
+};
+// const currentUser = fetch('http://localhost:3000/users/1').then(resp => resp.json());
+
 
 function fetchBooks() {
   fetch(bookUrl)
@@ -26,7 +35,6 @@ function renderBookList(allBooks) {
 
 function chooseBook(e) {
   let id = e.target.id;
-  showPanel.innerHTML = ""
   return fetch(`http://localhost:3000/books/${id}`)
     .then(response => response.json())
     .then(book => renderBookCard(book));
@@ -34,6 +42,7 @@ function chooseBook(e) {
 
 
 function renderBookCard(book) {
+  showPanel.innerHTML = ""
   let div = document.createElement('div');
   div.className = "card";
   div.innerHTML = `<h2>${book.title}</h2>
@@ -48,9 +57,31 @@ function renderBookCard(book) {
   }
   showPanel.appendChild(div);
   const readButton = document.querySelector('.read-btn');
-  self.addEventListener("click", e => clickSubmission(e));
+  readButton.addEventListener("click", e => clickSubmission(e, book));
 }
 
-function clickSubmission(e) {
+function bookUsers(book) {
+  let bookUsers = book.users;
+  if (bookUsers.some(user => user.id === currentUser.id)) {
+    book.users = bookUsers.filter(user => user.id != currentUser.id);
+  } else {
+    bookUsers.push(currentUser);
+  }
+  return book;
 
+}
+
+function clickSubmission(e, book) {
+  return fetch(`http://localhost:3000/books/${book.id}`, {
+      method: "PATCH",
+      body: JSON.stringify(
+        bookUsers(book)
+      ),
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      }
+    })
+    .then(resp => resp.json())
+    .then(book => renderBookCard(book));
 }
