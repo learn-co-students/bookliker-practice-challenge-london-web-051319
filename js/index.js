@@ -64,7 +64,7 @@ function renderBookLiker (bookLiker, div) {
   div.append(p)
 }
 
-// LIKE BUTTON
+/// LIKE BUTTON WITH BONUS
 
 function addLikingFunctionality (book, button) {
   const bookUsers = book.users
@@ -93,13 +93,3 @@ function addLikerBackend (book) {
     body: JSON.stringify(book)
   })
 }
-
-
-
-// patch request to like - update list
-
-/// BONUS
-
-// patch to same book removes likes
-
-// toggle likes on and off
