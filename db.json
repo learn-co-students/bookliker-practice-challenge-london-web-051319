@@ -5,16 +5,7 @@
       "title": "Picture Perfect",
       "description": "When her seven-year-old nephew, a hemophiliac, mysteriously disappears during their camping trip, pediatrician Lorrie Ryan races against time to find the missing boy with the help of FBI agent Stuart Saunders. Previously published as Panda Bear Is Critical. Reprint.",
       "img_url": "http://books.google.com/books/content?id=CEMZ1OoPDIAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "users": [
-        {
-          "id": 2,
-          "username": "auer"
-        },
-        {
-          "id": 8,
-          "username": "goodwin"
-        }
-      ]
+      "users": 3
     },
     {
       "id": 2,
@@ -34,7 +25,31 @@
           "id": 6,
           "username": "steuber"
         }
-      ]
+      ],
+      "book": {
+        "id": 2,
+        "title": "Nemesis",
+        "description": "The next high-octane thriller in the FBI series featuring Dillon Savich and Lacey Sherlock from # 1 New York Times–bestselling author Catherine Coulter. When Special Agent Lacey Sherlock foils a terrorist attack at JFK airport, she thinks her job is done and turns the reins over to the New York FBI. But stopping the grenade-carrying crazy was only the beginning. Another plot unfolds nearly simultaneously with a bomb at St. Patrick’s Cathedral. The terrorist at JFK refuses to speak to anyone but Sherlock. She heads back with counterterrorist Special Agent Cal McLain to try to get him to talk. Meanwhile, Savich—with the help of Agent Griffin Hammersmith—has his hands full trying to track an elusive murderer who looks like a Hollywood Dracula. When Dracula’s attempts to kill Savich collide with Sherlock’s terrorist case, very strange things happen. Who is really behind the bombing attack at St. Patrick’s? How does Savich’s mysterious killer fit into Sherlock’s terrorism investigation? Savich and Sherlock race against the clock, as more lives are in danger with every passing minute.",
+        "img_url": "http://books.google.com/books/content?id=pkwCDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "users": [
+          {
+            "id": 10,
+            "username": "macejkovic"
+          },
+          {
+            "id": 4,
+            "username": "batz"
+          },
+          {
+            "id": 6,
+            "username": "steuber"
+          },
+          {
+            "id": 1,
+            "username": "pouros"
+          }
+        ]
+      }
     },
     {
       "id": 3,
@@ -50,7 +65,47 @@
           "id": 9,
           "username": "nikolaus"
         }
-      ]
+      ],
+      "book": {
+        "id": 3,
+        "title": "Urban Outlaws",
+        "description": "Living life off the radar can be tough - as the Urban Outlaws are about to find out . . . Because no one's anonymous. No one's untraceable. No one's safe. The first in a sensational new series of high-octane, high-tech thrillers",
+        "img_url": "http://books.google.com/books/content?id=xTSmAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "users": [
+          {
+            "id": 8,
+            "username": "goodwin"
+          },
+          {
+            "id": 9,
+            "username": "nikolaus"
+          },
+          {
+            "id": 1,
+            "username": "pouros"
+          }
+        ],
+        "book": {
+          "id": 3,
+          "title": "Urban Outlaws",
+          "description": "Living life off the radar can be tough - as the Urban Outlaws are about to find out . . . Because no one's anonymous. No one's untraceable. No one's safe. The first in a sensational new series of high-octane, high-tech thrillers",
+          "img_url": "http://books.google.com/books/content?id=xTSmAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "users": [
+            {
+              "id": 8,
+              "username": "goodwin"
+            },
+            {
+              "id": 9,
+              "username": "nikolaus"
+            },
+            {
+              "id": 1,
+              "username": "pouros"
+            }
+          ]
+        }
+      }
     },
     {
       "id": 4,
@@ -118,63 +173,88 @@
           "id": 5,
           "username": "king"
         }
-      ]
+      ],
+      "book": {
+        "id": 7,
+        "title": "Iron Lake",
+        "description": "Includes excerpt of Heaven's Keep by William Kent Krueger (p. [439-447]).",
+        "img_url": "http://books.google.com/books/content?id=nSEVSnb8wpUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "users": [
+          {
+            "id": 3,
+            "username": "marvin"
+          },
+          {
+            "id": 5,
+            "username": "king"
+          },
+          {
+            "id": 1,
+            "username": "pouros"
+          }
+        ],
+        "book": {
+          "id": 7,
+          "title": "Iron Lake",
+          "description": "Includes excerpt of Heaven's Keep by William Kent Krueger (p. [439-447]).",
+          "img_url": "http://books.google.com/books/content?id=nSEVSnb8wpUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "users": [
+            {
+              "id": 3,
+              "username": "marvin"
+            },
+            {
+              "id": 5,
+              "username": "king"
+            },
+            {
+              "id": 1,
+              "username": "pouros"
+            }
+          ],
+          "book": {
+            "id": 7,
+            "title": "Iron Lake",
+            "description": "Includes excerpt of Heaven's Keep by William Kent Krueger (p. [439-447]).",
+            "img_url": "http://books.google.com/books/content?id=nSEVSnb8wpUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+            "users": [
+              {
+                "id": 3,
+                "username": "marvin"
+              },
+              {
+                "id": 5,
+                "username": "king"
+              },
+              {
+                "id": 1,
+                "username": "pouros"
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "id": 8,
       "title": "The Billionaires",
       "description": "100 Shades of Sin... In The Billionaires, Calista Fox delivers a sexy and sensuous friends-to-lovers tale with a delicious love triangle twist. Jewel Catalano, Rogen Angelini, and Vin D'Angelo had been childhood best friends, spending every possible moment with one another. Rogen became her first love, the first one to show her what pleasure could be. Until a volatile feud erupted between their powerful California wine country families and she and Rogen were torn apart from each other. What she didn't expect was to find comfort and passion like she had never known in Vin's arms and bed. But when that too ended in disaster, Jewel moved to San Francisco to work for the Catalano empire. Years later, a series of daring acquisitions brings Jewel back to River Cross, the hometown where Rogen and Vin have recently returned as well. Jewel has the curves, the smarts, and the success to bring any man to his knees—especially the two men who remained best friends and still burn to possess her. Mixing family business with erotic pleasure ignites a smoldering love triangle. But in order to pull off the bold deal that will build the trios’ own legacy and to stay in their heady, sensual paradise, they must discover what true love really is—or lose everything their hearts' desire, in The Billionaires by Calista Fox.",
       "img_url": "http://books.google.com/books/content?id=dZs0DgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "users": [
-        {
-          "id": 9,
-          "username": "nikolaus"
-        },
-        {
-          "id": 3,
-          "username": "marvin"
-        },
-        {
-          "id": 2,
-          "username": "auer"
-        }
-      ]
+      "users": 4
     },
     {
       "id": 9,
       "title": "Rocky Mountain Pursuit",
       "description": "IDENTITY: CONFIDENTIAL Everyone believes agent Jase Bradford is dead--everyone but Reyna Peterson. Only he can protect her now that someone wants the information her CIA husband died to secure. As the one member of their spy team not killed, Jase must remain in the shadows. Yet when Reyna leads the enemy right to his mountain refuge and blows his cover, Jase risks his life for hers. As his best friend's beautiful widow scales the walls around his heart, whether out of loyalty or love, he makes it his duty to secure her safety. But when their pursuers trap them in the snowy Colorado mountains, will it become his final mission?",
       "img_url": "http://books.google.com/books/content?id=hmbACwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "users": [
-        {
-          "id": 8,
-          "username": "goodwin"
-        },
-        {
-          "id": 6,
-          "username": "steuber"
-        },
-        {
-          "id": 5,
-          "username": "king"
-        }
-      ]
+      "users": 4
     },
     {
       "id": 10,
       "title": "The Lottery Winner",
       "description": "Five short tales, including 'Plumbing for Willy' and 'Death on the Cape,' follow the adventures of a former cleaning woman and her occasionally befuddled mate",
       "img_url": "http://books.google.com/books/content?id=dK5Gx6vbV2YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "users": [
-        {
-          "id": 8,
-          "username": "goodwin"
-        },
-        {
-          "id": 10,
-          "username": "macejkovic"
-        }
-      ]
+      "users": 3
     }
   ],
   "users": [
