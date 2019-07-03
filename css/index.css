@@ -2,3 +2,12 @@ body {
 	display: grid;
 	grid-template-columns: 2fr 8fr
 }
+
+.flex {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.flex span {
+	font-weight: bold;
+}
