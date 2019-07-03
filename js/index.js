@@ -43,7 +43,11 @@ function showBookInfo (book) {
   p.innerText = book.description
   div = document.createElement('div')
   button = document.createElement('button')
-  button.innerText = 'like book!'
+  if (book.users.includes(pageUser)) {
+    button.innerText = 'Unlike book!'
+  } else {
+    button.innerText = 'Like book!'
+  }
 
   book.users.forEach(bookLiker => {
     renderBookLiker(bookLiker, div)
@@ -60,12 +64,18 @@ function renderBookLiker (bookLiker, div) {
   div.append(p)
 }
 
-/// LIKE BUTTON
+// LIKE BUTTON
 
 function addLikingFunctionality (book, button) {
   const bookUsers = book.users
   button.addEventListener('click', e => {
-    if (bookUsers.includes(pageUser)) { alert('You have already liked this book').then(showBookInfo(book)) } else {
+    if (bookUsers.includes(pageUser)) { 
+      let newLikers = book.users.filter(user => user.id !== pageUser.id)
+      book.users = newLikers
+      addLikerBackend(book)
+        .then(response => response.json())
+        .then(showBookInfo(book))
+    } else {
       book.users.push(pageUser)
       addLikerBackend(book)
         .then(response => response.json())
@@ -83,6 +93,8 @@ function addLikerBackend (book) {
     body: JSON.stringify(book)
   })
 }
+
+
 
 // patch request to like - update list
 
