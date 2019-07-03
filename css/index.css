@@ -2,3 +2,41 @@ body {
 	display: grid;
 	grid-template-columns: 2fr 8fr
 }
+
+* {
+   font-family: sans-serif;
+}
+
+#list-panel {
+   display: flex;
+   flex-direction: column;
+   /* background: grey; */
+}
+
+.titles-list {
+   display: flex;
+   height: 15px;
+   width: 100%;
+   margin: 10px;
+}
+
+.book-images {
+   margin: 10px;
+}
+
+.book-description {
+   margin: 10px;
+}
+
+.like-button {
+   height: 20px;
+   width: 100px;
+   border: 2px outset grey;
+   border-radius: 10%;
+   background: white;
+   color: grey;
+}
+
+.likers-list {
+   margin: 5px;
+}
