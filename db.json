@@ -13,6 +13,58 @@
         {
           "id": 8,
           "username": "goodwin"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
         }
       ]
     },
@@ -33,6 +85,10 @@
         {
           "id": 6,
           "username": "steuber"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
         }
       ]
     },
@@ -65,6 +121,18 @@
         {
           "id": 8,
           "username": "goodwin"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
         }
       ]
     },
@@ -85,6 +153,14 @@
         {
           "id": 8,
           "username": "goodwin"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
         }
       ]
     },
@@ -101,6 +177,14 @@
         {
           "id": 4,
           "username": "batz"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
         }
       ]
     },
@@ -117,6 +201,10 @@
         {
           "id": 5,
           "username": "king"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
         }
       ]
     },
@@ -137,6 +225,22 @@
         {
           "id": 2,
           "username": "auer"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
         }
       ]
     },
@@ -157,10 +261,34 @@
         {
           "id": 5,
           "username": "king"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
         }
       ]
     },
     {
+      "0": {
+        "id": 8,
+        "username": "goodwin"
+      },
+      "1": {
+        "id": 10,
+        "username": "macejkovic"
+      },
+      "2": {
+        "id": 1,
+        "username": "pouros"
+      },
+      "3": {
+        "id": 1,
+        "username": "pouros"
+      },
       "id": 10,
       "title": "The Lottery Winner",
       "description": "Five short tales, including 'Plumbing for Willy' and 'Death on the Cape,' follow the adventures of a former cleaning woman and her occasionally befuddled mate",
@@ -173,6 +301,22 @@
         {
           "id": 10,
           "username": "macejkovic"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
         }
       ]
     }
