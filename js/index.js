@@ -28,7 +28,7 @@ function addBookToList (book) {
 // event listener function to render book to show panel
 
 function setUpShowPanel (book, li) {
-  li.addEventListener('click', e => {
+  li.addEventListener('click', () => {
     showBookInfo(book)
   })
 }
@@ -43,7 +43,7 @@ function showBookInfo (book) {
   p.innerText = book.description
   div = document.createElement('div')
   button = document.createElement('button')
-  if (book.users.includes(pageUser)) {
+  if (book.users.map(user => user.id).includes(pageUser.id)) {
     button.innerText = 'Unlike book!'
   } else {
     button.innerText = 'Like book!'
@@ -67,11 +67,9 @@ function renderBookLiker (bookLiker, div) {
 /// LIKE BUTTON WITH BONUS
 
 function addLikingFunctionality (book, button) {
-  const bookUsers = book.users
   button.addEventListener('click', e => {
-    if (bookUsers.includes(pageUser)) { 
-      let newLikers = book.users.filter(user => user.id !== pageUser.id)
-      book.users = newLikers
+    if (book.users.map(user => user.id).includes(pageUser.id)) { 
+      book.users = book.users.filter(user => user.id !== pageUser.id)
       addLikerBackend(book)
         .then(response => response.json())
         .then(showBookInfo(book))
