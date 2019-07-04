@@ -88,11 +88,18 @@ function getSelectedBook(event) {
 }
 
 function updateBookReaders(book) {
-  book.users.push(currentUser)
-  console.log(book.users)
-  updateBookDB(book);
+  liked = !liked;
+  if (liked == true) {
+    book.users.push(currentUser)
+    console.log(book.users)
+    updateBookDB(book);
+  } else {
+    book.users.pop
+    console.log(book.users)
+    updateBookDB(book);
+  }  
 }
-// update (patch) book info
+// update (patch) book info and update DOM
 function updateBookDB(book) {
   return fetch(`${BOOKS_URL}/${book.id}`, {
     method: "PATCH",
@@ -105,4 +112,5 @@ function updateBookDB(book) {
   .then(displayBookReaders(book))
 }
 
-// update DOM
+// toggle like on and off
+let liked = false; 
